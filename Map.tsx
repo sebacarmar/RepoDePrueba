@@ -1,5 +1,4 @@
 // REVISADO +
-import { Fragment } from 'react';
 import { ToastContainer } from 'react-toastify';
 import { selectCoordsIds, selectPlacesIds, selectViewCoordCoordsResult } from '../redux/selectors';
 import { useAppSelector, useMap } from '../hooks';
@@ -39,6 +38,7 @@ const Map = () => {
 }<MapContainer
 ref={mapContainer}
 className="animate__animated animate__fadeIn"
+import { Fragment } from 'react';
 />
 
 export default Map;
