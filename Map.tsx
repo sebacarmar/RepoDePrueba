@@ -29,12 +29,13 @@ const Map = () => {
 
             {(!showViewCoord && coordsIds.length <= 0) && <LocationButton />}
 
+            {(!showViewCoord && coordsIds.length <= 0) && <LocationButton />}
+
             {(!showViewCoord && coordsIds.length <= 0) && <SearchInput />}
 
             {(!showViewCoord && coordsIds.length <= 0 && placesIds.length > 0) && <PlacesResult />}
         </Fragment>
     );
-};
 }<MapContainer
 ref={mapContainer}
 className="animate__animated animate__fadeIn"
