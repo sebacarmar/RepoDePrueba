@@ -4,7 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import { selectCoordsIds, selectPlacesIds, selectViewCoordCoordsResult } from '../redux/selectors';
 import { useAppSelector, useMap } from '../hooks';
 import { CoordsResult, LocationButton, PlacesResult, SearchInput, ViewCoordButtons } from '../components';
-import { MapContainer } from '../styles/Map';
+import { MapContainer } from '../Map';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Map = () => {
