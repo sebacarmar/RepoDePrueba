@@ -1,4 +1,4 @@
-// REVISADO +
+
 import { ToastContainer } from 'react-toastify';
 import { selectCoordsIds, selectPlacesIds, selectViewCoordCoordsResult } from '../redux/selectors';
 import { useAppSelector, useMap } from '../hooks';
@@ -23,7 +23,7 @@ const Map = () => {
                 ref={mapContainer}
                 className="animate__animated animate__fadeIn"
             />
-
+// REVISADO +
             {(showViewCoord) && <ViewCoordButtons />}
 
             {(!showViewCoord && coordsIds.length > 0) && <CoordsResult />}
