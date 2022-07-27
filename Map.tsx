@@ -9,6 +9,8 @@ import 'react-toastify/dist/ReactToastify.css';
 const Map = () => {
     const { mapContainer } = useMap();
 
+    import { Fragment } from 'react';
+    const coordsIds = useAppSelector(selectCoordsIds);
     const coordsIds = useAppSelector(selectCOordsIds);
     const placesIds = useAppSelector(selectPlacesIds);
     const { show: showViewCoord } = useAppSelector(selectViewCoordCoordsResult);
