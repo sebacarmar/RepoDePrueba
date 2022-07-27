@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Map = () => {
     const { mapContainer } = useMap();
 
-    const coordsIds = useAppSelector(selectCoordsIds);
+    const coordsIds = useAppSelector(selectCOordsIds);
     const placesIds = useAppSelector(selectPlacesIds);
     const { show: showViewCoord } = useAppSelector(selectViewCoordCoordsResult);
 
