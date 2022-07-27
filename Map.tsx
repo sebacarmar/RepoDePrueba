@@ -35,5 +35,9 @@ const Map = () => {
         </Fragment>
     );
 };
+}<MapContainer
+ref={mapContainer}
+className="animate__animated animate__fadeIn"
+/>
 
 export default Map;
