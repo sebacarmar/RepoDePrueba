@@ -18,7 +18,7 @@
 >git push 
 
 
-# Comandos para el uso de ramas (*branch)
+# Comandos para el uso de ramas (*branch*)
 
 * Hacer una nueva rama
 >git branch nombreRama
