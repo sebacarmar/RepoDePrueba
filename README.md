@@ -29,7 +29,7 @@
 * Se hace el flujo de trabajo de siempre. Pero al commitear, todo se hace en la rama nueva
 
 * Para hacer el merge, se debe ir primero a la rama principal
->git checkout nombreRama
+>git checkout main
 
 >git merge nombreRama
 
